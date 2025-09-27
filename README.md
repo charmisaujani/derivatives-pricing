@@ -13,14 +13,14 @@ Provide clean, well-documented code that can be extended for advanced use cases.
 
 derivatives-pricing/
 - notebooks/
----black_scholes.ipynb       # Closed-form solutions
----binomial_tree.ipynb       # Lattice method
----monte_carlo.ipynb         # Simulation approach
+  - black_scholes.ipynb       # Closed-form solutions
+  - binomial_tree.ipynb       # Lattice method
+  - monte_carlo.ipynb         # Simulation approach
 
 - src/
----black_scholes.py
----binomial_tree.py
----monte_carlo.py
+  - black_scholes.py
+  - binomial_tree.py
+  - monte_carlo.py
 
 - data/                         
 
