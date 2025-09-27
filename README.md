@@ -10,22 +10,23 @@ Visualize results to build financial intuition.
 Provide clean, well-documented code that can be extended for advanced use cases.
 
 📂 Project Structure -
+
 derivatives-pricing/
-│
-├── notebooks/
-│   ├── black_scholes.ipynb       # Closed-form solutions
-│   ├── binomial_tree.ipynb       # Lattice method
-│   ├── monte_carlo.ipynb         # Simulation approach
-│
-├── src/
-│   ├── black_scholes.py
-│   ├── binomial_tree.py
-│   ├── monte_carlo.py
-│
-├── data/                         
-│
-├── README.md
-└── requirements.txt
+- notebooks/
+---black_scholes.ipynb       # Closed-form solutions
+---binomial_tree.ipynb       # Lattice method
+---monte_carlo.ipynb         # Simulation approach
+
+- src/
+---black_scholes.py
+---binomial_tree.py
+---monte_carlo.py
+
+- data/                         
+
+- README.md
+
+- requirements.txt
 
 🔧 Models Implemented -
 
